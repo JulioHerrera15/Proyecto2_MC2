@@ -36,13 +36,13 @@ vertex_entry.grid(row=1, column=0, columnspan=2, pady=(0, 10), sticky="ew")
 add_vertex_button = ctk.CTkButton(main_frame, text="Agregar vertice", command=lambda: G.add_node(vertex_entry.get()))
 add_vertex_button.grid(row=2, column=0, columnspan=2, sticky="ew")  
 
-edge_label_1 = ctk.CTkLabel(main_frame, text="Arista inicio:")
+edge_label_1 = ctk.CTkLabel(main_frame, text="Vértice inicio:")
 edge_label_1.grid(row=3, column=0, pady=(0, 0), sticky="ew")  
 
 edge_entry_1 = ctk.CTkEntry(main_frame)
 edge_entry_1.grid(row=4, column=0, pady=(0, 0), sticky="ew")  
 
-edge_label_2 = ctk.CTkLabel(main_frame, text="Arista fin:")
+edge_label_2 = ctk.CTkLabel(main_frame, text="Vértice fin:")
 edge_label_2.grid(row=3, column=1, pady=(0, 0), sticky="ew")  
 
 edge_entry_2 = ctk.CTkEntry(main_frame)
